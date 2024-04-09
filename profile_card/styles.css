@@ -1,43 +1,93 @@
 body {
-    margin: 0;
-    height: 100vh;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    background-color: #f0f0f0;
+  margin: 0;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #f0f0f0;
 }
 
 .profile-card {
-    width: 300px;
-    background-color: #fff;
-    border-radius: 10px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-    padding: 20px;
-    text-align: center;
+  width: 350px;
+  background-color: #ececff;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  padding: 30px;
+  text-align: center;
 }
 
 .profile-picture {
-    width: 150px;
-    height: 150px;
-    border-radius: 50%;
-    margin: 0 auto 20px;
-    overflow: hidden;
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  margin: 0 auto 20px;
+  overflow: hidden;
 }
 
 .profile-picture img {
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
 }
 
 .profile-info h2 {
-    margin: 0;
-    color: #333;
-    font-size: 24px;
+  margin: 0;
+  color: #000000;
+  font-size: 26px;
 }
 
 .profile-info p {
-    margin: 5px 0;
-    color: #666;
-    font-size: 16px;
+  margin: 5px 0;
+  padding: 15px;
+  color: #000000;
+  font-size: 16px;
+  text-align: justify;
+  font-size: 18px;
+}
+
+.profile-info h4 {
+  color: #707070;
+  margin-top: 5px;
+  margin-bottom: 5px;
+  font-size: 20px;
+}
+
+.contact-info h4 {
+  color: #000000;
+  padding: 2px;
+  margin: 0 5px;
+  font-size: 16px;
+}
+
+.contact-info h3 {
+    color: #000000;
+    padding: 2px;
+    margin: 0 5px;
+    font-size: 18px;
+    text-decoration: underline;
+  }
+
+.statestics{
+    padding-top: 10px;
+    padding-bottom: 10px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 10px;
+}
+
+.grid-item{
+    background: #b8b9fd;
+    border-radius: 5px;
+}
+
+.grid-item h4{
+    padding: 5px;
+    margin: 5px;
+    font-size: 20px;
+} 
+
+.grid-item p{
+    padding: 5px;
+    margin: 5px;
+    font-size: 18px;
 }
